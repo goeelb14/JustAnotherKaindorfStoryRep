@@ -632,7 +632,7 @@ PlayerSettings:
   apiCompatibilityLevel: 2
   cloudProjectId: 869c7877-a764-4490-843f-55f426ddcd38
   projectName: Just another Kaindorf Story
-  organizationId: contrive-games
+  organizationId: just-another-kaindorf-story
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
