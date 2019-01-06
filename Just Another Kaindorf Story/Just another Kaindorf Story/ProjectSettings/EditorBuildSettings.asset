@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Maps/Classroom/Basement.unity
+    guid: 464a7d0e7b7b1474486ead1deed846a2
+  - enabled: 1
+    path: Assets/Maps/Classroom/bhif14.unity
+    guid: d4769201ca72934499c09c4b816b1c08
+  - enabled: 1
+    path: Assets/Maps/Classroom/LowerFloor.unity
+    guid: 7dc189a59c5f1bb4f831afd863f3264d
+  - enabled: 1
+    path: Assets/Maps/Classroom/dhif14.unity
+    guid: 1229f0d5d752006429f079df7c61c07e
+  - enabled: 1
+    path: Assets/Maps/Classroom/UpperFloor.unity
+    guid: 0adbd3b44061cd14894f45378f4c600f
+  - enabled: 1
+    path: Assets/Maps/Classroom/ahif14.unity
+    guid: e617a5752ca09794bb348262f499b554
+  - enabled: 1
+    path: Assets/Maps/Other/EndScreen.unity
+    guid: fdd54ad892d797e4b8a047c2e363a634
+  - enabled: 1
+    path: Assets/Maps/Other/StartScreen.unity
+    guid: 84b480e9436bb154fb621b154e72f74d
+  - enabled: 1
+    path: Assets/Maps/Classroom/Gym.unity
+    guid: c04439b774c176542b03b401c776b973
+  m_configObjects: {}
