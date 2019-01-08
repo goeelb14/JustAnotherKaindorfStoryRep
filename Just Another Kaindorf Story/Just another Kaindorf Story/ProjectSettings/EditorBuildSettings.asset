@@ -27,9 +27,21 @@ EditorBuildSettings:
     path: Assets/Maps/Other/EndScreen.unity
     guid: fdd54ad892d797e4b8a047c2e363a634
   - enabled: 1
+    path: Assets/Maps/Classroom/WinScreen.unity
+    guid: 501eb7723333de0429f8cbca3352230c
+  - enabled: 1
     path: Assets/Maps/Other/StartScreen.unity
     guid: 84b480e9436bb154fb621b154e72f74d
   - enabled: 1
+    path: Assets/Maps/Classroom/TableTennis.unity
+    guid: 5bc80edb3629e3b4297eb477db1afdf7
+  - enabled: 1
+    path: Assets/Maps/Classroom/SportsRoom.unity
+    guid: f8f64cd98322ab4458a5a1ed1b6473b1
+  - enabled: 1
     path: Assets/Maps/Classroom/Gym.unity
     guid: c04439b774c176542b03b401c776b973
+  - enabled: 1
+    path: Assets/Maps/Classroom/SecretRoom.unity
+    guid: 33b51f0d410627e41841bbf43ff2539a
   m_configObjects: {}

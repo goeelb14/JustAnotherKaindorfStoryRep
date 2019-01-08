@@ -15,6 +15,10 @@ public class GlobalControl : MonoBehaviour {
     public AudioClip scaryMusic;
     public Random random;
     public bool sandwichMissionOn;
+    public bool StairsUnlocked;
+    public bool TableTennisUnlocked;
+    public bool corridorUnlocked;
+    public bool bookUnlocked;
     void Awake()
     {
         

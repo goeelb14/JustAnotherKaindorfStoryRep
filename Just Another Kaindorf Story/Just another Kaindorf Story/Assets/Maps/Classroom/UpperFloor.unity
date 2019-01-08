@@ -1644,6 +1644,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1097463447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097463449}
+  - component: {fileID: 1097463448}
+  m_Layer: 0
+  m_Name: NVSTeacherControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1097463448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097463447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f6e744aae50bc409b1979a384891c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nvsTeacher: {fileID: 1639776821}
+  nvsScript: {fileID: 0}
+  speed: 4
+--- !u!4 &1097463449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097463447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.603587, y: 0.9705572, z: -0.068941355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157258904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,6 +2049,26 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 50074693149136794, guid: af7e80422dc209c4592e1bb2f9a1ffc4,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50074693149136794, guid: af7e80422dc209c4592e1bb2f9a1ffc4,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50074693149136794, guid: af7e80422dc209c4592e1bb2f9a1ffc4,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 50074693149136794, guid: af7e80422dc209c4592e1bb2f9a1ffc4,
+        type: 2}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114411892327229686, guid: af7e80422dc209c4592e1bb2f9a1ffc4, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: af7e80422dc209c4592e1bb2f9a1ffc4, type: 2}
@@ -2028,6 +2091,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Message: "Mit seiner LAN-Peitsche sieht dein Lehrer besonders furchteinfl\xF6\xDFend
     aus."
+  right: {fileID: 21300000, guid: 12c616a69c254c7499ce828375d8604a, type: 3}
+  down: {fileID: 21300000, guid: 8d9c34940d888a44093807de730262e3, type: 3}
+  running: 0
 --- !u!1001 &1929100301
 Prefab:
   m_ObjectHideFlags: 0

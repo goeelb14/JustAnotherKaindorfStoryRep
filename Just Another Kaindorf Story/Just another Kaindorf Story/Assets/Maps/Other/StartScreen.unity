@@ -275,8 +275,14 @@ MonoBehaviour:
   HausschuheAn: 1
   LastPrincess: {fileID: 21300000, guid: 3c05038d4e9954e498ec147c6b7e0315, type: 3}
   changeRoomSound: {fileID: 8300000, guid: 03c2bca77f2ce974086519261a639814, type: 3}
+  GymDoorOpen: 0
   normalMusic: {fileID: 8300000, guid: 13cb45f694656dd4bba60a6a3b147031, type: 3}
   scaryMusic: {fileID: 8300000, guid: 61ff460f05b9a62488bc7a09b2b0e90d, type: 3}
+  sandwichMissionOn: 0
+  StairsUnlocked: 0
+  TableTennisUnlocked: 0
+  corridorUnlocked: 0
+  bookUnlocked: 0
 --- !u!4 &487278266
 Transform:
   m_ObjectHideFlags: 0

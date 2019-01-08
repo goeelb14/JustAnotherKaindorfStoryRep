@@ -2212,6 +2212,9 @@ MonoBehaviour:
   - "Wo habe ich meinen Schl\xFCssel liegen lassen?"
   - "DU GAUNER HAST MEINEN SCHL\xDCSSEL!"
   - Er sieht dir auf deine nicht vorhandenen Hausschuhe.
+  - Oh nein, meine Privatvideos! Lass sie in Frieden, ich sperr dir den Tischtennisraum
+    auf.
+  - Tu mir nichts... ich habe dir den Raum auch aufgesperrt.
   imgDownwards: {fileID: 21300000, guid: 686aea797d898eb4d93c71de0a55da37, type: 3}
   imgSidewaysLeft: {fileID: 21300000, guid: 5decb013d4ccd444a884ad895e89efb7, type: 3}
   imgBackwards: {fileID: 21300000, guid: 7f4a7a41195889b4ba19a6bb3df6f135, type: 3}

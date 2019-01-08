@@ -28,15 +28,24 @@ public class PosLehrerInterScript : MonoBehaviour {
         {
             Debug.Log("ich bin getriggert");
             if(GlobalControl.Instance.HausschuheAn)
-            { 
-            if(GlobalControl.Instance.Items.Contains("ahifKey"))
             {
-                dMan.ShowBox(Message[1]);
-            }
-            else
-            {
-                dMan.ShowBox(Message[0]);
-            }
+                if(GlobalControl.Instance.TableTennisUnlocked)
+                {
+                    dMan.ShowBox(Message[4]);
+                }
+                else if(GlobalControl.Instance.Items.Contains("BlackMail-USBStick"))
+                {
+                    dMan.ShowBox(Message[3]);
+                    GlobalControl.Instance.TableTennisUnlocked = true;
+                }
+                else if(GlobalControl.Instance.Items.Contains("ahifKey"))
+                {
+                    dMan.ShowBox(Message[1]);
+                }
+                else
+                {
+                    dMan.ShowBox(Message[0]);
+                }
             }
             else
             {

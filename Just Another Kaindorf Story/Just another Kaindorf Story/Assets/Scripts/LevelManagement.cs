@@ -12,6 +12,7 @@ public class LevelManagement : MonoBehaviour {
     {
         if(collision.CompareTag("Player"))
         {
+            
             if(SceneToLoad=="Gym"&& !GlobalControl.Instance.GymDoorOpen)
             {
                 AMTeacherScript am = FindObjectOfType<AMTeacherScript>();
@@ -25,7 +26,9 @@ public class LevelManagement : MonoBehaviour {
                 }
             }
 
-            else if ((SceneToLoad != "ahif14" || GlobalControl.Instance.Items.Contains("ahifKey")))
+            else if ((SceneToLoad != "ahif14" || GlobalControl.Instance.Items.Contains("ahifKey"))&&
+                (SceneToLoad!="TableTennis"||GlobalControl.Instance.TableTennisUnlocked)
+                &&(SceneToLoad!="SportsRoom"||GlobalControl.Instance.corridorUnlocked))
             {
 
                 GlobalControl.Instance.LastPrincess = GameObject.Find("Princess").GetComponent<SpriteRenderer>().sprite;
